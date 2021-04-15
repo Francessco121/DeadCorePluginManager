@@ -16,6 +16,8 @@ Standalone's plugin manager used to exist at https://github.com/MrStandalone/Dea
 
 Smooths camera movement to the game's render framerate to fix the camera being locked to the game's 50 FPS physics framerate.
 
+> Important Note: This plugin smoothly moves the camera between player positions meaning that the camera will be (at most) 1 frame behind during gameplay. This **will** affect shooting as the gun will fire from the position the camera would have been at with this plugin off. **However**, this is really not noticeable in practice due to it being at most a 0.02s offset. 
+
 The SmoothCamera plugin was also included with the [build provided by Standalone on the steam forums](https://steamcommunity.com/app/284460/discussions/0/619568794056639879/?ctp=2#c458607518211812791). The version here has been modified slightly. Originally, SmoothCamera had a "smooth factor" option. It turned out that this option isn't needed and the perfect smooth factor can be automatically determined. Also includes some minor fixes like working correctly with player teleports.
 
 #### Usage
