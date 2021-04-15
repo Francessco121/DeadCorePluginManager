@@ -21,6 +21,9 @@ The SmoothCamera plugin was also included with the [build provided by Standalone
 #### Usage
 Once in a level, you can press the <kbd>~</kbd> key to bring up the plugin manager's console. Then, you can enter the `sc_toggle` command to toggle on/off the smooth camera plugin (by default, this is on).
 
+#### "The game still doesn't feel like it's above 60 FPS"
+Unfortunately, this plugin only addresses camera smoothing with player movement. DeadCore's physics and animations will still simulate at 50 FPS.
+
 ## Manual Installation
 
 > Note: If you'd like to easily install the plugin manager and the smooth camera plugin, please head to the [releases page](https://github.com/Francessco121/DeadCorePluginManager/releases).
