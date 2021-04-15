@@ -23,7 +23,7 @@ Once in a level, you can press the <kbd>~</kbd> key to bring up the plugin manag
 
 ## Manual Installation
 
-> Note: If you'd like to easily install the plugin manager and the smooth camera plugin, please head the releases page.
+> Note: If you'd like to easily install the plugin manager and the smooth camera plugin, please head to the [releases page](https://github.com/Francessco121/DeadCorePluginManager/releases).
 
 The plugin manager lives as a set of .NET DLLs next to DeadCore's main .NET gameplay code DLL (`Assembly-CSharp.dll`). In order for the plugin manager to even be initialized, DeadCore's `Assembly-CSharp.dll` file must be modified to call the plugin manager's `DCPM.Initializer.Initialize`.
 
