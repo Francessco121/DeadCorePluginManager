@@ -149,8 +149,9 @@ namespace DCPM.Common
 
 				consoleInput = GUI.TextField(textInputRect, consoleInput);
 
-				if ((Event.current.type == EventType.KeyDown && Event.current.keyCode == KeyCode.Return) ||
-					GUI.Button(submitButtonRect, "Submit"))
+				Event evt = Event.current;
+
+				if (evt.keyCode == KeyCode.Return || GUI.Button(submitButtonRect, "Submit"))
 				{
 					Submit(consoleInput);
 					consoleInput = "";
