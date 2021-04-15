@@ -1,8 +1,8 @@
 # DeadCore Plugin Manager
 
-A "decompiled fork" of [Standalone](https://steamcommunity.com/id/MrStandalone)'s plugin manager for the game [DeadCore](https://store.steampowered.com/app/284460/DeadCore/).
+A "decompiled fork" of [Standalone](https://github.com/MrStandalone)'s plugin manager for the game [DeadCore](https://store.steampowered.com/app/284460/DeadCore/).
 
-Standalone's plugin manager used to exist at https://github.com/MrStandalone/DeadCorePluginManager, but has since been deleted. This repository's code was created by decompiling a build provided by Standlone [in this Steam forum thread](https://steamcommunity.com/app/284460/discussions/0/619568794056639879/?ctp=2#c458607518211812791) using [dnSpy](https://github.com/dnSpy/dnSpy) and afterwards cleaned up manually.
+Standalone's plugin manager used to exist at https://github.com/MrStandalone/DeadCorePluginManager, but has since been deleted. This repository's code was created by decompiling a build provided by Standalone [in this Steam forum thread](https://steamcommunity.com/app/284460/discussions/0/619568794056639879/?ctp=2#c458607518211812791) using [dnSpy](https://github.com/dnSpy/dnSpy) and afterwards cleaned up manually.
 
 ## Contents
 - [Plugins](#plugins)
